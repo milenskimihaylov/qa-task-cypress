@@ -1,2 +1,2 @@
-# To execute the test/s into docker container the following commands should be executed in the terminal (should work on both Windows (PowerShell) and Linux)
-# docker pull cypress/included:13.3.0; docker run --rm -v ${PWD}:/e2e --workdir=/e2e --entrypoint="" cypress/included:13.3.0 /bin/bash -c 'npm install && cypress run --browser chrome'
+### To execute the test/s into docker container the below commands should be executed in the terminal (should work on both Windows (PowerShell) and Linux)
+### docker pull cypress/included:13.3.0; docker run --rm -v ${PWD}:/e2e --workdir=/e2e --entrypoint="" cypress/included:13.3.0 /bin/bash -c 'npm install && cypress run --browser chrome'
